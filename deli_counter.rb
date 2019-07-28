@@ -5,8 +5,8 @@ def line(people)
     puts "The line is currently empty."
   else 
     people.each do |name|
-      phrase.push("#{counter}. ")
-      phrase.push(name)
+      phrase += "#{counter}. "
+      phrase += name
       counter += 1
     end
     puts phrase
