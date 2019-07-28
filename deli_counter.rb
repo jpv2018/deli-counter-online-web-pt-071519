@@ -14,10 +14,12 @@ def line(people)
 end
 
 def take_a_number(katz_deli, person)
-  if katz_deli.length == 0 
-    puts "Welcome, #{person}. You are number 1 in line."
-  else
-    puts "Welcome, #{person}. You are number #{katz_deli.length += 1} in line."
+  katz_deli.push(person)
+  counter = 0
+  katz_deli.each |name| do
+    counter += 1
+  end
+  puts "Welcome, #{person}. You are number #{counter} in line."
   end
 end
   
