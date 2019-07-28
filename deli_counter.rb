@@ -14,8 +14,8 @@ def line(people)
 end
 
 def take_a_number(katz_deli, person)
-  katz_deli.push(person)
   counter = 0
+  katz_deli.push(person)
   katz_deli.each |name| do
     counter += 1
   end
