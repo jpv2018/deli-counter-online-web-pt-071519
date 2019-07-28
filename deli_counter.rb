@@ -16,8 +16,7 @@ end
 def take_a_number(katz_deli, person)
   counter = 0
   katz_deli.push(person)
-  katz_deli.each 
-    do |name|
+  katz_deli.each do |name|
     counter += 1
   end
   puts "Welcome, #{person}. You are number #{counter} in line."
