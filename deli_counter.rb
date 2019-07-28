@@ -12,3 +12,8 @@ def line(people)
     puts phrase
   end
 end
+
+def take_a_number(katz_deli, person)
+  
+  puts "Welcome, #{person}. You are number ___ in line."
+  
