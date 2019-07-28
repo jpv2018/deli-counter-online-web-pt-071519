@@ -14,6 +14,7 @@ def line(people)
 end
 
 def take_a_number(katz_deli, person)
-  puts "Welcome, #{person}. You are number #{katz_deli.length += 1} in line."
+  position = katz_deli.length += 1
+  puts "Welcome, #{person}. You are number #{position} in line."
 end
   
