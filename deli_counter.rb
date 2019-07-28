@@ -4,7 +4,7 @@ def line(people)
     puts "The line is currently empty."
   else 
     people.each do |name|
-    phrase.push(name.index += 1. )
+    phrase.push(name.index += 1". ")
     phrase.push(name)
     end
     puts phrase
