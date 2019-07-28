@@ -21,6 +21,5 @@ def take_a_number(katz_deli, person)
     counter += 1
   end
   puts "Welcome, #{person}. You are number #{counter} in line."
-  end
 end
   
