@@ -7,5 +7,6 @@ def line(people)
     phrase.push(name.index += 1. )
     phrase.push(name)
     end
+    puts phrase
   end
 end
